@@ -15,4 +15,5 @@ https://youtu.be/eltKL8kC160
 - Create folder 'src'
 > python3 -m venv venv
 
-
+- To start server : 
+> src % uvicorn main:app --reload

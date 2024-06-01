@@ -46,4 +46,7 @@ class User(_UserBase):
     is_active: bool
     posts: List[Post] = []
 
-    #again, we don't want the lazy loding
+    class Config:
+        #again, we don't want the lazy loding
+        orm_mode = True
+    
