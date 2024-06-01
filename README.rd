@@ -1,9 +1,9 @@
 https://youtu.be/eltKL8kC160
 
-# Code
+#Code
 
-- Create environment
-> python3 -m venv venv
+-Create environment
+>>python3 -m venv venv
 
 - Activate 'venv' virtual enviroment
 > source venv/bin/activate venv
